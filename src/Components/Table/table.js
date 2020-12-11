@@ -200,7 +200,7 @@ function ProductTable() {
         <Button
           color='success'
           onClick={addProduct}
-          style={{ margin: '0px 10px 20px 20px', float: 'right' }}
+          style={{ margin: '0px 10px 20px 20px', float: 'left' }}
         >
           Add
         </Button>{' '}
