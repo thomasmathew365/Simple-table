@@ -7,7 +7,6 @@ export default function useFetch(url) {
     fetch(url)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         setState({ data: data, isLoading: false });
       });
   }, [url]);
